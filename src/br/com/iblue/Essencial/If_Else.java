@@ -14,7 +14,6 @@ public class If_Else {
 			System.out.println("Não, o número " + numero + " não é maior que 5");
 		}
 		
-		
 		if(numero % 2 == 0) {
 			System.out.println("Sim, o número " + numero + " é par");
 		}else {
