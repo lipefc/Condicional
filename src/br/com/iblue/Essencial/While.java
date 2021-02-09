@@ -9,10 +9,10 @@ public class While {
 		int idade = 1;
 		String nome;
 		
-		//Para Receber dados do usuário via teclado
+		//Para Receber dados do usuário via teclado.
 		Scanner teclado = new Scanner(System.in);
 		
-		//Sempre checa o valor antes de executar o bloco
+		//Sempre checa o valor antes de executar o bloco.
 		while(idade > 0) {
 			System.out.println("\nInforma seu nome: ");
 			nome = teclado.nextLine();

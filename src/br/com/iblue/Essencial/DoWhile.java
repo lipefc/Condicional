@@ -9,10 +9,10 @@ public class DoWhile {
 		int idade;
 		String nome;
 		
-		//Para Receber dados do usuário via teclado
+		//Para Receber dados do usuário via teclado.
 		Scanner teclado = new Scanner(System.in);
 		
-		//Primeiro executa o bloco, depois faz a checagem
+		//Primeiro executa o bloco, depois faz a checagem.
 		do{
 			System.out.println("\nInforma seu nome: ");
 			nome = teclado.nextLine();

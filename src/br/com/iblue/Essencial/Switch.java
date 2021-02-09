@@ -9,13 +9,13 @@ public class Switch {
 		switch (numero) {
 			case 1:
 				System.out.println("O numéro é 1");
-				break;
+			break;
 			case 3:
 				System.out.println("O numéro é 3");
-				break;
+			break;
 			case 5:
 				System.out.println("O numéro é 5");
-				break;
+			break;
 			default:
 				System.out.println("[Default] O numéro é " + numero);
 			break;

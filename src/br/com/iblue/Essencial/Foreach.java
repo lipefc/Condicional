@@ -6,7 +6,7 @@ public class Foreach {
 		
 		String nome = "Geek University";
 		
-		//Para cada um dos caracteres da string, imprima o caractere; Para cada letra 
+		//Para cada um dos caracteres da string, imprima o caractere; Para cada letra.
 		for (char letra : nome.toCharArray()) {
 			System.out.print(letra);
 			//System.out.println(letra);

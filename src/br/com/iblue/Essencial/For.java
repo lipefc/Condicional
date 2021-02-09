@@ -9,10 +9,10 @@ public class For {
 		int idade;
 		String nome;
 		
-		//Para Receber dados do usuário via teclado
+		//Para Receber dados do usuário via teclado.
 		Scanner teclado = new Scanner(System.in);
 		
-		//Variável de controle; Condição de parada; Forma de incremento;
+		//Variável de controle; Condição de parada; Forma de incremento.
 		for(int i = 0; i < 5; i++) {
 			System.out.println("\nInforma seu nome: ");
 			nome = teclado.nextLine();
