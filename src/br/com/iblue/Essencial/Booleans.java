@@ -5,19 +5,19 @@ public class Booleans {
 	public static void main(String[] args) {
 	
 		//Tipos Primários
-		boolean verdadeiro = true; //23.40
-		boolean falso = false; //23.454984654186465486465484658454
+		boolean verdadeiro = true; //1
+		boolean falso = false; //0
 			
 		//Tipos Não Primários
-		Boolean v = true; //1
-		Boolean f = false; //0
+		Boolean v = true; 
+		Boolean f = false; 
 		
-		boolean ativo = true;
+		boolean ativo = false;
 		
-		System.out.println("Verdadeiro " + verdadeiro);
-		System.out.println("falso " + falso);
-		System.out.println("V " + v);
-		System.out.println("F " + f);
+		System.out.println("Verdadeiro = " + verdadeiro);
+		System.out.println("falso = " + falso);
+		System.out.println("V = " + v);
+		System.out.println("F = " + f);
 		
 		if(verdadeiro) {
 			System.out.println("É Verdadeiro");
