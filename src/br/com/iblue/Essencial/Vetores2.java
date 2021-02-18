@@ -9,7 +9,9 @@ public class Vetores2 {
 		System.out.println("Tamanho do vetor : " + numeros.length);
 		
 		for(int i = 0; i < 10; i++) {
+//			numeros[0] = i + 3;
 			numeros[i] = i + 3;
+//			numeros[9] = i + 3;
 		}
 		
 		System.out.println(numeros[0]); //Primeiro elemento.
